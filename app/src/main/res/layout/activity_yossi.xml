@@ -53,6 +53,7 @@
         android:textSize="30dp"
         android:layout_below="@+id/textView24"
         android:layout_centerHorizontal="true"
-        android:background="#ffa9a5ff" />
+        android:background="#ffa9a5ff"
+        android:onClick="toEnd" />
 
 </RelativeLayout>

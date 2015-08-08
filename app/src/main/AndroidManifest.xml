@@ -44,6 +44,10 @@
             android:name=".YossiActivity"
             android:label="@string/title_activity_yossi" >
         </activity>
+        <activity
+            android:name=".EndActivity"
+            android:label="@string/title_activity_end" >
+        </activity>
     </application>
 
 </manifest>
