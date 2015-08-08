@@ -5,7 +5,8 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="com.lifeistech.android.summer2015.YoneActivity"
-    android:onClick="toKasumin">
+    android:onClick="toKasumin"
+    android:background="@drawable/ice3">
 
     <TextView
         android:layout_width="wrap_content"
@@ -14,7 +15,9 @@
         android:id="@+id/textView7"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:textSize="50dp" />
+        android:textSize="50dp"
+        android:background="#ffffcc84"
+        android:textColor="#ffff23bd" />
 
     <ImageView
         android:layout_width="200dp"
@@ -50,6 +53,7 @@
         android:id="@+id/button3"
         android:textSize="30dp"
         android:layout_below="@+id/textView9"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:background="#ffa3f8ff" />
 
 </RelativeLayout>
