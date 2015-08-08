@@ -55,6 +55,7 @@
         android:textSize="25dp"
         android:layout_below="@+id/textView4"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="76dp" />
+        android:layout_marginTop="76dp"
+        android:onClick="ready" />
 
 </RelativeLayout>

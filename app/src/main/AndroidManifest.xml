@@ -16,6 +16,34 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".SecondActivity"
+            android:label="@string/title_activity_second" >
+        </activity>
+        <activity
+            android:name=".YoneActivity"
+            android:label="@string/title_activity_yone" >
+        </activity>
+        <activity
+            android:name=".KasuminActivity"
+            android:label="@string/title_activity_kasumin" >
+        </activity>
+        <activity
+            android:name=".RinRinActivity"
+            android:label="@string/title_activity_rin_rin" >
+        </activity>
+        <activity
+            android:name=".IsshiActivity"
+            android:label="@string/title_activity_isshi" >
+        </activity>
+        <activity
+            android:name=".DaizyuActivity"
+            android:label="@string/title_activity_daizyu" >
+        </activity>
+        <activity
+            android:name=".YossiActivity"
+            android:label="@string/title_activity_yossi" >
+        </activity>
     </application>
 
 </manifest>
