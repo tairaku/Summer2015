@@ -36,7 +36,8 @@
         android:layout_height="400dp"
         android:id="@+id/imageView"
         android:layout_below="@+id/textView6"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/zenin" />
 
     <Button
         android:layout_width="wrap_content"

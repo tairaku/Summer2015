@@ -23,7 +23,8 @@
         android:layout_height="200dp"
         android:id="@+id/imageView6"
         android:layout_below="@+id/textView19"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/daizyu" />
 
     <TextView
         android:layout_width="wrap_content"
