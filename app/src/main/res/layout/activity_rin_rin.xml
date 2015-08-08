@@ -50,5 +50,7 @@
         android:id="@+id/button5"
         android:textSize="30dp"
         android:layout_below="@+id/textView15"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:onClick="toIsshi"
+        android:nestedScrollingEnabled="false" />
 </RelativeLayout>

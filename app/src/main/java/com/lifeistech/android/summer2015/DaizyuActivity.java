@@ -1,9 +1,11 @@
 package com.lifeistech.android.summer2015;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 
 public class DaizyuActivity extends ActionBarActivity {
@@ -14,6 +16,10 @@ public class DaizyuActivity extends ActionBarActivity {
         setContentView(R.layout.activity_daizyu);
     }
 
+    public void toYosshi(View v){
+        Intent intent = new Intent(this, YossiActivity.class);
+        startActivity(intent);
+    }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.

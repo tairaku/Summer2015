@@ -1,9 +1,11 @@
 package com.lifeistech.android.summer2015;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 
 public class IsshiActivity extends ActionBarActivity {
@@ -12,6 +14,11 @@ public class IsshiActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_isshi);
+    }
+
+    public void toDaizyu(View v){
+        Intent intent = new Intent(this, DaizyuActivity.class);
+        startActivity(intent);
     }
 
     @Override

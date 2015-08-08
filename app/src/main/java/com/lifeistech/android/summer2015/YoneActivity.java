@@ -1,9 +1,11 @@
 package com.lifeistech.android.summer2015;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 
 public class YoneActivity extends ActionBarActivity {
@@ -12,6 +14,11 @@ public class YoneActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_yone);
+    }
+
+    public void toKasumin(View v){
+        Intent intent = new Intent(this, KasuminActivity.class);
+        startActivity(intent);
     }
 
     @Override

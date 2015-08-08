@@ -16,7 +16,7 @@ public class SecondActivity extends ActionBarActivity {
         setContentView(R.layout.activity_second2);
     }
 
-    public void ready(View v){
+    public void toYone(View v){
         Intent intent = new Intent(this, YoneActivity.class);
         startActivity(intent);
     }
