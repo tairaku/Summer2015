@@ -43,7 +43,7 @@
         android:id="@+id/textView18"
         android:layout_below="@+id/textView17"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="78dp"
+        android:layout_marginTop="0dp"
         android:textSize="20dp"
         android:visibility="invisible" />
 
